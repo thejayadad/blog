@@ -1,0 +1,38 @@
+
+
+.card{
+    background: whitesmoke;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.05);
+  transition: 0.25s ease
+}
+.card:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.1);
+}
+.card-banner{
+    display: none;
+}
+.card-bottom-content{
+    display:         flex;
+  justify-content: space-between;
+  align-items:     center;
+  flex-wrap:       wrap;
+  gap: 15px;
+}
+.card-banner img{
+    width: 250px;
+}
+.user-profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.sm-text{
+    display:     flex;
+  align-items: center;
+  gap: 5px;
+  color: black;
+}

@@ -1,0 +1,16 @@
+
+
+section {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.categories{
+    border-bottom: 1px solid lightblue;
+}
+button{
+    padding: 8px;
+    border-radius: 12px;
+    background: orange;
+}

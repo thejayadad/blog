@@ -1,0 +1,23 @@
+*, *::before, *::after {
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: monospace;
+}
+
+a { text-decoration: none; }
+
+li { list-style: none; }
+
+img, button { display: block; }
+
+a, span { display: inline-block; }
+
+button {
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
