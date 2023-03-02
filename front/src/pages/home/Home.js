@@ -9,6 +9,10 @@ const Home = () => {
         <main>
           <Categories />
           <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
         </main>
 
 

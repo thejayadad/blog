@@ -1,0 +1,27 @@
+
+.create-header{
+    text-align: center;
+    margin-top: 25px;
+}
+.create-post{
+    padding: 20px ;
+    width: 350px;
+    height: 380px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.post-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 15px;
+}
+.post-icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}

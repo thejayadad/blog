@@ -1,13 +1,13 @@
 import React from 'react'
-import "./create.css"
-import {Link } from "react-router-dom"
+import "./updatepost.css"
+import {Link} from "react-router-dom"
 
-const Create = () => {
+const UpdatePost = () => {
   return (
     <main>
-        <h2 className='create-header'>Create Post</h2>
+        <h2 className='create-header'>Update Post</h2>
         <div className='create-post'>
-        <h2 className='post-header'>Whats on your mind?</h2>
+        <h2 className='post-header'>Feeling a little different?</h2>
        <div className='post-text'>
 
         <input type="text" placeholder="Title" />
@@ -29,4 +29,4 @@ const Create = () => {
   )
 }
 
-export default Create
+export default UpdatePost

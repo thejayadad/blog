@@ -3,7 +3,10 @@
 main{
     max-width: 600px;
     margin: auto;
-    height: 100vh;
     border-left: 1px solid lightblue;
     border-right: 1px solid lightblue;
+    overflow-y: auto;
 }
+main::-webkit-scrollbar {
+    display: none;
+  }

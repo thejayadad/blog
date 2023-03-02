@@ -5,6 +5,7 @@
 }
 body{
   font-family: monospace;
+  overflow-y: scroll;
 }
 
 a { text-decoration: none; }

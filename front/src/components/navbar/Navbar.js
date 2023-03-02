@@ -9,14 +9,15 @@ const Navbar = () => {
     <header>
       <span>Vent Board</span>
       <nav>
-        <ul>
+        <ul className='nav-list'>
             <li>Home</li>
             <li>Home</li>
             <li>Home</li>
         </ul>
       </nav>
     <div className='login'>
-        <span>Login</span>
+        <span><Link to="/login">Login</Link></span>
+        <span><Link to="/create">Create</Link></span>
     </div>
   </header>
   )
