@@ -8,6 +8,8 @@ section {
 }
 .categories{
     border-bottom: 1px solid lightblue;
+    display: flex;
+    align-items: center;
 }
 button{
     padding: 8px;
